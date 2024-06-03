@@ -3,7 +3,6 @@
   justify-content: flex-start; 
   align-items: flex-start; 
   padding-top: 245px; 
-  height: 100vh; 
 }
 
 /* HeroContainer styles */
@@ -51,7 +50,8 @@
 /* Styles for small screens (mobile devices) */
 @media (max-width: 660px) {
   .wrapper {
-    padding-top: 40px; 
+    padding-top: 10px; 
+
   }
 
   .HeroContainer {
