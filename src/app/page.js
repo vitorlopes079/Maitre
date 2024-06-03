@@ -23,7 +23,7 @@ export default function Home() {
       <InfoSectionTop />
       <InfoSection
         text={
-          "Maître Mamba, guérisseur africain renommé, pratique des méthodes thérapeutiques non conventionnelles. Il considère l’être humain dans toutes ses dimensions, intégrant le corps, l’esprit, ainsi que l’environnement familial et social. Doté d'une sensibilité magnétique exceptionnelle, Maître Mamba perçoit les fluides énergétiques et agit en profondeur sur les pathologies psychiques et physiques, rééquilibrant les énergies. Ses thérapies reposent sur le pouvoir de ses mains, de son souffle, de ses recettes médicinales, de ses rituels religieux et de ses talismans de purification, offrant une approche holistique et efficace pour le bien-être de ses patients."
+          "Maître Mamba, guérisseur africain renommé, pratique des méthodes thérapeutiques non conventionnelles. Il considère l&aposêtre humain dans toutes ses dimensions, intégrant le corps, l&aposesprit, ainsi que l&aposenvironnement familial et social. Doté d'une sensibilité magnétique exceptionnelle, Maître Mamba perçoit les fluides énergétiques et agit en profondeur sur les pathologies psychiques et physiques, rééquilibrant les énergies. Ses thérapies reposent sur le pouvoir de ses mains, de son souffle, de ses recettes médicinales, de ses rituels religieux et de ses talismans de purification, offrant une approche holistique et efficace pour le bien-être de ses patients."
         }
         title={"Guérisseur"}
         buttonText={"Prendre rendez-vous"}
