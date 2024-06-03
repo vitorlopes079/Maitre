@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  padding-top: 245px; 
+  height: 100vh; 
+}
+
+/* HeroContainer styles */
+.HeroContainer {
+  max-width: 600px;
+  width: 100%;
+  margin-left: 155px;
+}
+
+/* Button container styles */
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+@media (max-width: 1250px) {
+  .HeroContainer {
+    max-width: 530px;
+    margin-left: 75px;
+  }
+  .wrapper {
+    padding-top: 60px; 
+  }
+}
+
+@media (max-width: 770px) {
+  .buttonContainer {
+    justify-content: center;
+    padding: 0px 12px;
+    gap: 16px;
+  }
+
+  .wrapper {
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 0px;
+  }
+
+  .HeroContainer {
+    margin-left: 0px; 
+  }
+}
+
+/* Styles for small screens (mobile devices) */
+@media (max-width: 660px) {
+  .wrapper {
+    padding-top: 40px; 
+  }
+
+  .HeroContainer {
+    max-width: 90%; 
+  }
+}

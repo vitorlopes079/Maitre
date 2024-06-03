@@ -1,0 +1,185 @@
+.testimonyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 170px 0;
+  position: relative;
+  padding: 0 20px; 
+}
+
+.outerContainer {
+  width: 682px;
+  height: 314px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleContainer {
+  width: 650px;
+  height: 342px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerContainer {
+  width: 612px;
+  height: 362px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.imageContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -52.5px;
+}
+
+.text {
+  padding: 95px 22px;
+  text-align: center;
+  color: #3d3d3d;
+  font-size: 18px;
+}
+
+.yellowShapeContainer {
+  position: absolute;
+  right: -15px;
+  top: -130px;
+  transform: translateX(-50%);
+  z-index: -100;
+  width: 100%;
+  height: 540px;
+  max-width: 583px;
+  pointer-events: none;
+}
+
+.yellowShapeImage {
+  object-fit: cover;
+}
+
+/* Media query for screens up to 1250px */
+@media (max-width: 1250px) {
+  .yellowShapeContainer {
+    right: -100px;
+  }
+}
+
+/* Media query for screens up to 1000px */
+@media (max-width: 1000px) {
+  .yellowShapeContainer {
+    right: -150px;
+  }
+}
+
+@media (max-width: 780px) {
+  .outerContainer {
+    width: 555px; 
+    height: 272px; 
+  }
+
+  .middleContainer {
+    width: 520px; 
+    height: 300px; 
+  }
+
+  .innerContainer {
+    width: 482px; 
+    height: 320px; 
+  }
+
+  .text {
+    font-size: 14px;
+    padding: 20px 20px;
+  }
+
+  .yellowShapeContainer {
+    right: -150px;
+    top: -60px;
+    height: 391px;
+    max-width: 422px;
+  }
+}
+
+/* Media query for screens up to 600px */
+@media (max-width: 600px) {
+  .testimonyContainer {
+    padding: 0; 
+  }
+
+  .outerContainer {
+    width: 420px; 
+    height: 232px; 
+  }
+
+  .middleContainer {
+    width: 388px; 
+    height: 260px; 
+  }
+
+  .innerContainer {
+    width: 350px; 
+    height: 280px;
+  }
+
+  .text {
+    font-size: 14px;
+    padding: 20px 20px;
+  }
+
+  .yellowShapeContainer {
+    right: -150px;
+    top: -60px;
+    height: 340px;
+    max-width: 367px;
+  }
+}
+
+@media (max-width: 440px) {
+  .outerContainer {
+    width: 315px; 
+    height: 300px; 
+  }
+
+  .middleContainer {
+    width: 291px; 
+    height: 310px; 
+  }
+
+  .innerContainer {
+    width: 262px; 
+    height: 325px; 
+  }
+
+  .text {
+    font-size: 12px;
+    padding: 20px 15px; 
+  }
+
+  .yellowShapeContainer {
+    right: -170px;
+    top: -20px;
+    height: 340px;
+    max-width: 367px;
+  }
+
+  .imageContainer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -60.5px;
+  } 
+}

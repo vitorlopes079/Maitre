@@ -1,0 +1,57 @@
+.InfoSectionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 70px 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.textSection {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ellipse {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(60deg, #7399fb 25%, #00319b 100%);
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.6;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+
+@media (max-width: 770px) {
+  .InfoSectionContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .textSection {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .buttonContainer {
+    margin-top: 20px;
+  }
+
+  .ellipse {
+    top: 140px;
+  }
+}

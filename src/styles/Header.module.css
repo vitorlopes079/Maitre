@@ -1,0 +1,49 @@
+.logoContainer {
+  font-weight: 900;
+  color: #37447e;
+  font-size: 26px;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigation {
+  display: flex;
+  font-size: 14px;
+  gap: 60px;
+  color: #37447e;
+  margin: 30px 160px;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link:hover {
+  color: #091133;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1250px) {
+  .navigation {
+    margin: 30px 75px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navigation {
+    justify-content: center;
+    margin: 75px 20px 0;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .navigation {
+    margin: 75px 20px 30px 20px;
+  }
+}

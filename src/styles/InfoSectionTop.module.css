@@ -1,0 +1,91 @@
+.InfoSectionTopContainer {
+  padding: 70px 80px;
+  margin-top: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+
+.textSection {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ellipse {
+  width: 380px;
+  height: 380px;
+  background: linear-gradient(60deg, #7399fb 25%, #00319b 100%);
+  border-radius: 50%;
+  filter: blur(180px);
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  right: -25px;
+  z-index: -10;
+}
+
+@media (max-width: 1250px) {
+  .InfoSectionTopContainer {
+    padding: 70px 60px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .InfoSectionTopContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+    margin-top: 0px;
+    margin: 85px 0;
+    background-color: #e7ecff;
+    padding: 60px 40px;
+    overflow: hidden;
+  }
+
+  .InfoSectionTopContainer::before,
+  .InfoSectionTopContainer::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50% / 100%;
+  }
+
+  .InfoSectionTopContainer::before {
+    top: -8px;
+  }
+
+  .InfoSectionTopContainer::after {
+    bottom: -8px;
+  }
+
+  .textSection {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  .buttonContainer {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 440px) {
+  .InfoSectionTopContainer {
+    margin: 175px 0 40px 0;
+    padding: 60px 20px;
+  }
+}

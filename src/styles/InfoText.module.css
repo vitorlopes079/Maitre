@@ -1,0 +1,46 @@
+.title {
+  font-weight: 500;
+  color: #091133;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 18px;
+  color: #505f98;
+  line-height: 1.875;
+}
+
+.hero {
+  font-size: 50px;
+}
+
+@media (max-width: 770px){
+ .text{
+    text-align: center;
+    text-align: justify;
+    padding: 0px 25px;
+    margin-bottom: 40px;
+  }
+
+  .title{
+    margin-top: 60px;
+    text-align: center;
+    padding: 0px 25px;
+
+  }
+
+}
+
+@media (max-width: 770px){
+
+  .title{
+    margin-top: 90px;
+    text-align: center;
+
+  }
+
+  .hero {
+    font-size: 46px;
+  }
+}

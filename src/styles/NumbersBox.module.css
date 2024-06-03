@@ -1,0 +1,40 @@
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 20px;
+  }
+  
+  .numberItem {
+    text-align: center;
+  }
+  
+  .numberItemTitle {
+    font-size: 24px;
+    color: #0177F9; 
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  
+  .numberItemLabel {
+    font-size: 16px;
+    color: #A1A1A1; 
+    margin: 0;
+  }
+
+  @media (max-width: 500px) {
+    .boxContainer {
+      gap: 16px; 
+      padding: 15px; 
+    }
+    
+    .numberItemTitle {
+      font-size: 20px;
+      margin-bottom: 2px;
+    }
+    
+    .numberItemLabel {
+      font-size: 14px; 
+    }
+  }

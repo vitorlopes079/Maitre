@@ -1,0 +1,31 @@
+.button {
+    background-color: transparent;
+    height: 36px;
+    border: 2px solid #091133;
+    border-radius: 3px;
+    color: #091133;
+    width: 190px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #091133;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #0d1538;
+    color: #e0e0e0;
+    transform: scale(0.95);
+}
+
+
+@media (max-width: 440px) {
+    .button {
+      width: 150px;
+    }
+  }
+  
