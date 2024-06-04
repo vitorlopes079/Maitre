@@ -24,15 +24,15 @@ const Testimony = () => {
             </div>
             <p className={styles.text}>
               &ldquo;Je tiens à exprimer ma profonde gratitude envers Maître
-              Mamba pour son aide précieuse dans mon parcours amoureux. Grâce à
-              ses puissants rituels et prières, j&&apos;ai réussi à reconquérir
-              l&&apos;amour de ma vie. Maître Mamba a su rétablir la stabilité
-              dans notre couple et renforcer notre lien affectif. Sa capacité à
-              influencer positivement le cœur et l&&apos;âme de mon partenaire est
+              Cheik pour son aide précieuse dans mon parcours amoureux. Grâce à
+              ses puissants rituels et prières, j'ai réussi à reconquérir
+              l'amour de ma vie. Maître Cheik a su rétablir la stabilité dans
+              notre couple et renforcer notre lien affectif. Sa capacité à
+              influencer positivement le cœur et l'âme de mon partenaire est
               vraiment impressionnante. Son approche holistique, alliant magie
-              et sensibilité, m&&apos;a permis de vivre une relation harmonieuse
-              et épanouissante. Je recommande vivement ses services à quiconque
-              cherche à améliorer sa vie amoureuse.`&ldquo;
+              et sensibilité, m'a permis de vivre une relation harmonieuse et
+              épanouissante. Je recommande vivement ses services à quiconque
+              cherche à améliorer sa vie amoureuse.&ldquo;
             </p>
           </div>
         </div>

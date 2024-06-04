@@ -12,7 +12,7 @@ const HeroSection = () => {
           isHero={true}
           title={"Bienvenue sur le site de Maître Cheik"}
           text={
-            "Fort d'une tradition ancestrale transmise de génération en génération, Maître Mamba est un marabout d'exception, initié dès son jeune âge à Ouagadougou, Burkina-Faso. Grâce à un don puissant et unique, il excelle dans les arts occultes tels que le maraboutage, la voyance, et la médiumnité. Spécialiste des problématiques sentimentales et familiales, Maître Mamba vous guide vers le bonheur et la chance, avec discrétion et professionnalisme, quelle que soit votre origine ou croyance."
+            "Fort d'une tradition ancestrale transmise de génération en génération, Maître Cheik est un marabout d'exception, initié dès son jeune âge à Ouagadougou, Burkina-Faso. Grâce à un don puissant et unique, il excelle dans les arts occultes tels que le maraboutage, la voyance, et la médiumnité. Spécialiste des problématiques sentimentales et familiales, Maître Cheik vous guide vers le bonheur et la chance, avec discrétion et professionnalisme, quelle que soit votre origine ou croyance."
           }
         />
         <div className={styles.buttonContainer}>
